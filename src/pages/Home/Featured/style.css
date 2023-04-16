@@ -1,0 +1,3 @@
+.pagination {
+   @apply !left-auto !right-6 md:!right-8 !top-12 !z-50 !w-auto !h-auto
+}
