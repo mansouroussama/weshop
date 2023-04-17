@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    <React.StrictMode>
       <Provider store={store}>
          <PersistGate loading={<Loading/>} persistor={persistor}>
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
                <App/>
             </BrowserRouter>
          </PersistGate>
